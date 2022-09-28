@@ -32,5 +32,9 @@ defmodule RomanTest do
     assert Roman.convert(800) == "DCCC"
   end
 
+  test "should convert units of thousand" do
+    assert Roman.convert(1000) == "M"
+  end
+
 
 end

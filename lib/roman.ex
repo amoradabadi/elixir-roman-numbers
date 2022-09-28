@@ -3,6 +3,7 @@ defmodule Roman do
 
   def convert(number) do
     cond do
+      number == 1000 -> "M"
       number >= 500 -> "D" <> convert(number - 500)
       number >= 100 -> "C" <> convert(number - 100)
       number >= 50 -> "L" <> convert(number - 50)
