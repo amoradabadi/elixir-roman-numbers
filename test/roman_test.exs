@@ -24,6 +24,8 @@ defmodule RomanTest do
 
   test "should convert units of hundred" do
     assert Roman.convert(100) == "C"
+    assert Roman.convert(200) == "CC"
+    assert Roman.convert(300) == "CCC"
   end
 
 
