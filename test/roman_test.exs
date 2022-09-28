@@ -17,7 +17,13 @@ defmodule RomanTest do
     assert Roman.convert(20) == "XX"
     assert Roman.convert(30) == "XXX"
     assert Roman.convert(50) == "L"
-    # assert Roman.convert(60) == "LX"
+    assert Roman.convert(60) == "LX"
+    assert Roman.convert(70) == "LXX"
+    assert Roman.convert(80) == "LXXX"
+  end
+
+  test "should convert units of hundred" do
+    assert Roman.convert(100) == "C"
   end
 
 
