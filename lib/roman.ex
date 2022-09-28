@@ -1,10 +1,10 @@
 defmodule Roman do
 
   def convert(number) do
-    case number do
-      3 -> "III"
-      2 -> "II"
-      1 -> "I"
+    if number == 0 do
+      ""
+    else
+      "I" <> convert(number - 1)
     end
   end
 end
