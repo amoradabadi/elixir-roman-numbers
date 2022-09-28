@@ -14,6 +14,8 @@ defmodule RomanTest do
 
   test "should convert units of ten" do
     assert Roman.convert(10) == "X"
+    assert Roman.convert(20) == "XX"
+    assert Roman.convert(30) == "XXX"
   end
 
 end
