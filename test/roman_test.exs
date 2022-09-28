@@ -38,5 +38,9 @@ defmodule RomanTest do
     assert Roman.convert(3000) == "MMM"
   end
 
+  test "should prepend" do
+    assert Roman.convert(4) == "IV"
+    assert Roman.convert(9) == "IX"
+  end
 
 end
