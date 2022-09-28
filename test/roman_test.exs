@@ -44,6 +44,7 @@ defmodule RomanTest do
     assert Roman.convert(40) == "XL"
     assert Roman.convert(90) == "XC"
     assert Roman.convert(400) == "CD"
+    assert Roman.convert(900) == "CM"
   end
 
 end

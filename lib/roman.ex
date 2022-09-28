@@ -20,6 +20,7 @@ defmodule Roman do
   def numeral_map() do
     %{
       1000 => "M",
+      900 => "CM",
       500 => "D",
       400 => "CD",
       100 => "C",
