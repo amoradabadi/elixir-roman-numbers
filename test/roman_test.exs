@@ -26,6 +26,7 @@ defmodule RomanTest do
     assert Roman.convert(100) == "C"
     assert Roman.convert(200) == "CC"
     assert Roman.convert(300) == "CCC"
+    assert Roman.convert(500) == "D"
   end
 
 
