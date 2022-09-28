@@ -9,4 +9,9 @@ defmodule RomanTest do
   test "should convert number two" do
     assert Roman.convert(2) == "II"
   end
+
+  test "should convert number three" do
+    assert Roman.convert(3) == "III"
+  end
+
 end
