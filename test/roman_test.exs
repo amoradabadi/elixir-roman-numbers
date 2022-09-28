@@ -16,6 +16,9 @@ defmodule RomanTest do
     assert Roman.convert(10) == "X"
     assert Roman.convert(20) == "XX"
     assert Roman.convert(30) == "XXX"
+    assert Roman.convert(50) == "L"
+    # assert Roman.convert(60) == "LX"
   end
+
 
 end
