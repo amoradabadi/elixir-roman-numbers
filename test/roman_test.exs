@@ -22,4 +22,8 @@ defmodule RomanTest do
     assert Roman.convert(6) == "VI"
   end
 
+  test "should convert number seven" do
+    assert Roman.convert(7) == "VII"
+  end
+
 end
