@@ -14,4 +14,7 @@ defmodule RomanTest do
     assert Roman.convert(3) == "III"
   end
 
+  test "should convert number five" do
+    assert Roman.convert(5) == "V"
+  end
 end
