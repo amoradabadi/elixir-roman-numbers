@@ -1,6 +1,6 @@
-# Roman
+# Roman numbers in elixir
 
-**TODO: Add description**
+https://codingdojo.org/kata/RomanNumerals/
 
 ## Installation
 
@@ -19,3 +19,7 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at <https://hexdocs.pm/roman>.
 
+## Run tests
+```
+mix test
+```
